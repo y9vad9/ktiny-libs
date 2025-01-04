@@ -1,4 +1,4 @@
-package com.y9vad9.kotlidator
+package com.y9vad9.ktiny.kotlidator
 
 import kotlin.jvm.JvmInline
 

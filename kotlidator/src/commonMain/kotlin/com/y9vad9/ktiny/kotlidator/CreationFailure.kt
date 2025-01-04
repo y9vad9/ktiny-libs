@@ -1,4 +1,4 @@
-package com.y9vad9.kotlidator
+package com.y9vad9.ktiny.kotlidator
 
 /**
  * Represents a failure that occurs during the creation of an object.

@@ -1,6 +1,4 @@
-package com.y9vad9.brawlex.foundation.validation
-
-import com.y9vad9.kotlidator.CreationFailure
+package com.y9vad9.ktiny.kotlidator
 
 public data class ValidationException(
     val failure: CreationFailure,

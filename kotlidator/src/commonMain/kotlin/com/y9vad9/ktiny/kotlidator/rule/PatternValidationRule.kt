@@ -1,8 +1,7 @@
-package com.y9vad9.kotlidator.rule
+package com.y9vad9.ktiny.kotlidator.rule
 
-import com.y9vad9.brawlex.foundation.validation.rule.ValidationRule
-import com.y9vad9.kotlidator.CreationFailure
-import com.y9vad9.kotlidator.ValidationResult
+import com.y9vad9.ktiny.kotlidator.CreationFailure
+import com.y9vad9.ktiny.kotlidator.ValidationResult
 
 public class PatternValidationRule(
     private val regex: Regex,

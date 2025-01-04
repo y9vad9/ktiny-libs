@@ -1,7 +1,6 @@
-package com.y9vad9.kotlidator
+package com.y9vad9.ktiny.kotlidator
 
-import com.y9vad9.brawlex.foundation.validation.ValidationException
-import com.y9vad9.brawlex.foundation.validation.rule.ValidationRule
+import com.y9vad9.ktiny.kotlidator.rule.ValidationRule
 
 /**
  * Represents a generic constructor class for creating objects of type [TBoxed] from [TRaw].

@@ -1,7 +1,6 @@
-package com.y9vad9.brawlex.foundation.validation.rule
+package com.y9vad9.ktiny.kotlidator.rule
 
-import com.y9vad9.kotlidator.CreationFailure
-import com.y9vad9.kotlidator.ValidationResult
+import com.y9vad9.ktiny.kotlidator.ValidationResult
 
 /**
  * Represents a generic validation rule that checks whether a given input value meets a specific condition.

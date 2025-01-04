@@ -1,7 +1,7 @@
-package com.y9vad9.brawlex.foundation.validation.rule
+package com.y9vad9.ktiny.kotlidator.rule
 
-import com.y9vad9.kotlidator.CreationFailure
-import com.y9vad9.kotlidator.ValidationResult
+import com.y9vad9.ktiny.kotlidator.CreationFailure
+import com.y9vad9.ktiny.kotlidator.ValidationResult
 
 /**
  * A validation rule that ensures the value is greater than or equal to the specified minimum value.
