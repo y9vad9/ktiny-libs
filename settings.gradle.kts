@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 rootProject.name = "kotlin-project-template"
 
 includeBuild("build-conventions")
+
+include(":kotlidator")
