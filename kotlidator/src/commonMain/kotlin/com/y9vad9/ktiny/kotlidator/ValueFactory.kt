@@ -128,6 +128,6 @@ public fun <TRaw> ValueFactory<*, TRaw>.check(value: TRaw): List<ValidationResul
  */
 public fun <TBoxed, TRaw> ValueFactory<TBoxed, TRaw>.createOr(value: TRaw, or: (CreationFailure) -> TBoxed): TBoxed {
     return create(value).getOrElse {
-        or(it as CreationFailure)
+        or((it as ValidationException).failure)
     }
 }

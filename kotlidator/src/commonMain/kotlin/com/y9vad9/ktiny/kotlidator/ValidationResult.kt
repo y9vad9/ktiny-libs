@@ -10,7 +10,7 @@ import kotlin.jvm.JvmInline
  * @property failure The [CreationFailure] that describes why the validation failed, or `null` if valid.
  */
 @JvmInline
-public value class ValidationResult internal constructor(
+public value class ValidationResult private constructor(
     internal val failure: CreationFailure?,
 ) {
     /**
